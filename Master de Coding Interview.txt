@@ -1,0 +1,128 @@
+Master the Coding Interview: Big Tech (FAANG) Interviews
+
+- Gut check interview
+- Technical Phone Screen
+	- 1-2 technical problem
+
+3 keys to Technical Interviews:
+- Technical Knowledge --> data structures and algorithms
+- Critical and abstract problem solving
+- Communication 
+
+Big O, assintotic analysis.
+- What is good code? 
+	- Readable -> can others understand your code 
+	- Scalable -> Big O
+- O(n) -> Linear Time
+	- If the number of elements get bigger the time is lineraly big too
+	- This is the most comum
+- O(1) -> Constant time
+	- Independently of the size, the time is always the same.
+	- O(2) is the same thing that 0(1); This happens because the time is constant.
+	- Is the best thing in the world :D 
+- O(log(n))
+
+
+
+Rule Book of Big O:
+- Rule 1: Worst case.
+- Rule 2: Remove constants.
+- Rule 3: Different terms for inputs.
+- Rule 4: Drop Non dominants.
+
+
+O(n!) -- Oh no
+- Nested loop for every input that we have
+- Problably never going to see.
+
+Scalable:
+1- Readable
+2- Time and speed of our code --> time complexity
+3- Memory --> Space complexity 
+
+Hash Tables == maps?
+Hash function
+Colisions wikipedia
+
+# n of nodes = 2^height -1 
+log nodes = height
+O(log(n)) because we have a lot of possibilities and we just need 1
+
+AVL tree
+Red black tree
+
+Concern about the memory
+
+//If you know a solution is not far from the root of the tree:
+BFS
+
+//If the tree is very deep and solutions are rare, 
+BFS (DFS will take long time. )
+
+//If the tree is very wide:
+DFS (BFS will need too much memory)
+
+//If solutions are frequent but located deep in the tree
+DFS
+
+//determining whether a path exists between two nodes
+DFS
+
+//Finding the shortest path
+BFS
+
+DFS - types of ordering:
+InOrder
+PreOrder
+PostOrder
+
+Recursion is when you define something in turn of himself. Function that refers of himself inside a function
+Recursivo
+Recursion is hard to understand. 
+1- Identify de base case
+2- Identify the recursive case
+3- Get closer and closer and return when needed. Usually you have 2 returns.
+
+Recursion:
+- Dry Readability (Good)
+- Large stack (bad)
+- It's good for trees.
+Tail Call optimization --> Alow recursion without larging the stack
+
+When should we use recursion?
+- Every time you are using a tree or converting something into a tree, consider recursion.
+	1- Divide into a number of subproblems that are smaller instances of the same problem.
+	2- Each instance o the subproblem is identical in natural.
+	3- The solutions of each subproblem can be combined to solve the problem at hand.
+- Divide and conquer using Recursion.
+
+Sorting
+- Different kinds of algorithms depending on the problem that you have
+- Bubble sort
+- Insertion Sort
+- Selection sort
+More complex:
+- merge sort
+- quick sort
+
+Bubble Sort:
+Time complexity: n^2
+Space compexity:1
+
+Selection Sort:
+Time complexity: n^2
+Space complexity: 1
+Very similar to bubble. 
+
+Insertion Sort:
+- Good when do you know when your list its almost sorted
+- Go really really well in small datasets
+- Some times it can work really well - O(n) complexity in best case scenario
+
+The last big O of the list - O(n log(n))
+
+https://www.bigocheatsheet.com/
+
+for
+	for
+		area = min (a,b) *  (bi-ai);
