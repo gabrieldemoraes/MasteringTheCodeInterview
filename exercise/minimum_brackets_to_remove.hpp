@@ -54,4 +54,37 @@ std::string minimum_brackets_removed(std::string &entrance)
     return result;
 }
 
+//Time: O(n)
+//Space O(n)
+std::string minimum_brackets_removed_course_solution(std::string &entrance)
+{
+    std::stack<int> stack;
+    int position;
+
+    for(int i = 0; i < entrance.length(); ++i)
+    {
+        if(entrance[i] == '(')
+        {
+            stack.push(i);
+        }
+
+        if(entrance[i] == ')' && !stack.empty())
+        {
+            stack.pop();
+        }
+
+        else if(entrance[i] == ')' && stack.empty())
+            entrance.erase(i);
+    }
+
+    while(!stack.empty())
+    {
+        position = stack.top();
+        entrance.erase(position);
+        stack.pop();
+    }
+
+    return entrance;
+}
+
 #endif
