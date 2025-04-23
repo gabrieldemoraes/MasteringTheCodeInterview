@@ -1,3 +1,5 @@
+#ifndef NUMBER_OF_ISLANDS
+#define NUMBER_OF_ISLANDS
 #include <queue>
 
 #define ROW 4
@@ -81,3 +83,4 @@ int number_of_islands_DFS(int matrix[ROW][COL]) {
 
     return islandCount;
 }
+#endif

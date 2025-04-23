@@ -56,7 +56,11 @@
         "xtr1common": "cpp",
         "xtree": "cpp",
         "xutility": "cpp",
-        "cassert": "cpp"
+        "cassert": "cpp",
+        "queue": "cpp",
+        "list": "cpp",
+        "unordered_set": "cpp",
+        "xhash": "cpp"
     },
     "C_Cpp.dimInactiveRegions": false
 }
