@@ -1,5 +1,5 @@
-#ifndef NUMBER_OF_MINUTES
-#define NUMBER_OF_MINUTES
+#ifndef NUMBER_OF_MINUTES_HPP
+#define NUMBER_OF_MINUTES_HPP
 
 #include <vector>
 #include <map>

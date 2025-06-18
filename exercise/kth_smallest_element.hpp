@@ -1,5 +1,5 @@
-#ifndef KTH_SMALLEST_ELEMENT
-#define KTH_SMALLEST_ELEMENT
+#ifndef KTH_SMALLEST_ELEMENT_HPP
+#define KTH_SMALLEST_ELEMENT_HPP
 
 #include <iostream>
 #include <vector>

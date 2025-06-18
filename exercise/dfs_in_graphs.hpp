@@ -1,5 +1,5 @@
-#ifndef DFS_IN_GRAPHS
-#define DFS_IN_GRAPHS
+#ifndef DFS_IN_GRAPHS_HPP
+#define DFS_IN_GRAPHS_HPP
 
 #include <vector>
 #include <queue>

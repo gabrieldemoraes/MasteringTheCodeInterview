@@ -1,5 +1,5 @@
-#ifndef IMPLEMENT_QUEUE_WITH_STACKS
-#define IMPLEMENT_QUEUE_WITH_STACKS
+#ifndef IMPLEMENT_QUEUE_WITH_STACKS_HPP
+#define IMPLEMENT_QUEUE_WITH_STACKS_HPP
 
 #include <stack>
 #include <iostream>

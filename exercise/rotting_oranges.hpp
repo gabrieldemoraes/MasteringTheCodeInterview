@@ -1,5 +1,5 @@
-#ifndef ROTTING_ORANGES
-#define ROTTING_ORANGES
+#ifndef ROTTING_ORANGES_HPP
+#define ROTTING_ORANGES_HPP
 
 #include <queue>
 

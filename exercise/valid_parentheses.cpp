@@ -8,7 +8,7 @@ int main()
     //std::string sequence = ""; true
     std::string sequence = ")))"; 
 
-    auto response = validParentheses(sequence);
+    auto response = valid_parentheses(sequence);
 
     if(response) std::cout << "true" << std::endl;
 

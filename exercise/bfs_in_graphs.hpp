@@ -1,5 +1,5 @@
-#ifndef BFS_IN_GRAPHS
-#define BFS_IN_GRAPHS
+#ifndef BFS_IN_GRAPHS_HPP
+#define BFS_IN_GRAPHS_HPP
 
 #include <vector>
 #include <queue>

@@ -1,5 +1,5 @@
-#ifndef NUMBER_OF_ISLANDS
-#define NUMBER_OF_ISLANDS
+#ifndef NUMBER_OF_ISLANDS_HPP
+#define NUMBER_OF_ISLANDS_HPP
 #include <queue>
 
 #define ROW 4

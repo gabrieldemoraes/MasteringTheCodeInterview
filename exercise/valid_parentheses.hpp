@@ -1,5 +1,5 @@
-#ifndef VALID_PARENTHESES
-#define VALID_PARENTHESES
+#ifndef VALID_PARENTHESES_HPP
+#define VALID_PARENTHESES_HPP
 
 #include <string>
 #include <stack>
