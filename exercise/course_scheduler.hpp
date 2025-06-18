@@ -1,3 +1,6 @@
+#ifndef COURSE_SCHEDULER_HPP
+#define COURSE_SCHEDULER_HPP
+
 #include <vector>
 #include <queue>
 #include <unordered_set>
@@ -109,3 +112,4 @@ bool can_finish_without_adj(int n, const std::vector<std::vector<int>>& prerequi
 
     return count == n;
 }
+#endif

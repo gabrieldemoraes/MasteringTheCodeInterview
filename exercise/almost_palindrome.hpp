@@ -1,5 +1,5 @@
-#ifndef ALMOST_PALINDROME
-#define ALMOST_PALINDROME
+#ifndef ALMOST_PALINDROME_HPP
+#define ALMOST_PALINDROME_HPP
 
 #include <iostream>
 #include <string>

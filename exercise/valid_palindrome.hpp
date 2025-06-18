@@ -1,5 +1,5 @@
-#ifndef VALID_PALINDROME
-#define VALID_PALINDROME
+#ifndef VALID_PALINDROME_HPP
+#define VALID_PALINDROME_HPP
 
 #include <iostream>
 #include <string>

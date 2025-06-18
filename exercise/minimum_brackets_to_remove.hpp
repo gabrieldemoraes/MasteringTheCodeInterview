@@ -1,5 +1,5 @@
-#ifndef MINIMUM_BRACKETS_TO_REMOVE
-#define MINIMUM_BRACKETS_TO_REMOVE
+#ifndef MINIMUM_BRACKETS_TO_REMOVE_HPP
+#define MINIMUM_BRACKETS_TO_REMOVE_HPP
 
 #include<iostream>
 #include<string>
